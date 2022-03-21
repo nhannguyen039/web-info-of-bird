@@ -1,0 +1,71 @@
+#main {
+    display: block;
+    width: 100%;
+    height: 100%;
+	background: url("../img/khu-du-lich-sinh-thai-noi-tieng-tai-soc-trang-vuon-co-tan-long-2.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#header {
+    background-color: #02353C;
+    height: var(--header-height);
+    display: flex;
+	justify-content: space-between;
+}
+
+#header .header-left { 
+	width: 50%;
+	height: inherit;
+	display: flex;
+	align-items: center;
+	padding-left: 164px;
+
+	color: #C1F586;
+	font-weight: bold;
+	font-size: 3.2rem;
+}
+
+#header .header-right {
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	height: inherit;
+}
+
+#header .header-right__item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 1.8rem;
+	font-weight: bold;
+	width: 144px;
+	cursor: pointer;
+}
+
+#header .header-right__item:hover {
+	background-color: #55c598;
+	color: #fff;
+}
+
+#body {
+  
+
+    /* background-color: blueviolet; */
+    /* opacity: 0.5; */
+    min-height: 300px;
+    display: block;
+    padding-top: var(--header-height);
+    padding-bottom: var(--header-height);
+}
+
+#footer {
+    /* background-color: brown; */
+    border-color: transparent;
+    background-color: rgba(21, 22, 21, 0.5);
+
+    height: var(--header-height);
+}
