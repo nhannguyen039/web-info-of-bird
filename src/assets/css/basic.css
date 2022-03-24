@@ -113,3 +113,125 @@ caption {
     justify-content: center;
     align-items: center;
 }
+
+/* Su dung chung --------------- */
+
+#main {
+    /* background: url("../img/khu-du-lich-sinh-thai-noi-tieng-tai-soc-trang-vuon-co-tan-long-2.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+}
+
+#header {
+    background-color: #02353c;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .header-left {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding-left: 164px;
+
+    color: #c1f586;
+    font-weight: bold;
+    font-size: 3.2rem;
+}
+
+#header .header-right {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    height: inherit;
+}
+
+#header .header-right__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    width: 144px;
+    cursor: pointer;
+}
+
+#header .header-right__item:hover {
+    background-color: #55c598;
+    color: #fff;
+}
+
+#footer {
+    /* background-color: brown; */
+    border-color: transparent;
+    background-color: rgba(21, 22, 21, 0.5);
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer .footer-left {
+    color: #fff;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    height: inherit;
+}
+
+#footer .footer-left__item {
+    font-size: 2rem;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition: transform .2s; */
+}
+
+#footer .footer-left__item:hover {
+    cursor: pointer;
+    color: #2dd1ee;
+    /* transform: scale(1.3); */
+}
+
+#footer .footer-right {
+    color: #fff;
+    width: 400px;
+    justify-content: space-around;
+    display: flex;
+    font-weight: bold;
+    height: inherit;
+}
+
+#footer .footer-right__item {
+    font-size: 2rem;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition: transform .2s; */
+}
+
+#footer .footer-right__item:hover {
+    cursor: pointer;
+    color: #2dd1ee;
+    /* transform: scale(1.3); */
+}
+
+#footer .footer-right .icon {
+    color: #fff;
+    font-size: 2rem;
+    padding: 0 8px;
+}
