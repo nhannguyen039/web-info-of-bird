@@ -111,6 +111,32 @@
 
 }
 
+#about-us .about-us__title {
+	position: absolute;
+	right: 0;
+	font-size: 8rem;
+	color: var(--white-color);
+}
+
+#about-us .about-us__body {
+	position: absolute;
+    right: 6%;
+    top: 40%;
+    width: 43%;
+    font-size: 2rem;
+    line-height: 4rem;
+    text-align: justify;
+    color: var(--white-color);
+}
+
+#about-us .about-us__heading {
+	position: absolute;
+    right: 34%;
+    font-size: 3rem;
+    color: var(--white-color);
+    top: 70%;
+}
+
 #footer {
     /* background-color: brown; */
     border-color: transparent;
