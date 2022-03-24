@@ -162,9 +162,9 @@
 
 #search .search-group__input {
 	height: 30px;
-    flex: 1;
-	text-align: center;
-	font-size: 2rem;
+    width: 65%;
+    text-align: center;
+    font-size: 2rem;
 }
 
 #body .search__btn {
