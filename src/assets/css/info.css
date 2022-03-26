@@ -87,14 +87,14 @@
 
 
 #body .body-container__location--icon {
-    font-size: 5rem;
+    font-size: 4rem;
     color: #67c268;
     padding: 0 16px;
 }
 
 #body .body-container__location--text {
     color: #67c268;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 #body .body-container__item--text {
@@ -109,15 +109,22 @@
 #body .body-container__item--text2 {
     padding: 6px 12px;
     color: #000;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     word-wrap: break-word;
-    height: calc(100% - (13% * 3));
-    line-height: 3rem;
-    display: -webkit-box;
+    height: calc(100% - (12% * 3));
+    
+}
+
+#body .body-container__item--text2--des {
+    line-height: 4rem;
+    /* display: -webkit-box;
     -webkit-line-clamp: 12;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+    -webkit-box-orient: vertical; */
+    overflow: scroll;
     text-overflow: ellipsis;
+    font-size: 2rem;
+    height: 100%;
+    margin-top: 12px;
 }
 
 #footer {
